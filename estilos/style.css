@@ -20,6 +20,7 @@
 }
 
 body {
+    text-align: justify;
     background: white ;     
     padding: 30px 50px 50px 30px; 
 
@@ -30,7 +31,7 @@ h1 {
     text-align: center; 
 }
 
-header > h1 > span {
+.two-colors {
     background: linear-gradient(to right, var(--cor2) 50%, var(--cor3) 0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
