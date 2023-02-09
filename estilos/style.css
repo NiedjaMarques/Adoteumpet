@@ -20,7 +20,7 @@
 }
 
 body {
-    background-color: #8194d2; /* TESTE - APAGAR */
+    background-color: #cfd281; /* TESTE - APAGAR */
     text-align: justify;     
     padding: 30px 50px 50px 30px; 
 
@@ -43,11 +43,18 @@ h1 {
 }
 
 button {
-    border: 100px;
+    border-radius: 6px;
+    border-style: none;
+    color: white;
+    background-color: var(--cor3);
     font-size: 12px 15px 0px;
     padding: 8px;
-    width: 120px;
+    width: 100px;
     height: 40px;
+}
+
+button#divright {
+   /* VERIFICAR PRIMEIRO */
 }
 
 .two-colors {
