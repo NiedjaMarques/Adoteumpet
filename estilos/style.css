@@ -20,15 +20,34 @@
 }
 
 body {
-    text-align: justify;
-    background: white ;     
+    background-color: #8194d2; /* TESTE - APAGAR */
+    text-align: justify;     
     padding: 30px 50px 50px 30px; 
 
+}
+
+nav a {
+    font-size: 12px 15px 0px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    transition-duration: 0.4s;
+    color: var(--cor3);
 }
 
 h1 {
     font-family: var(--font1);
     text-align: center; 
+}
+
+button {
+    border: 100px;
+    font-size: 12px 15px 0px;
+    padding: 8px;
+    width: 120px;
+    height: 40px;
 }
 
 .two-colors {
