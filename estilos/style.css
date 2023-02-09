@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+:root {
+    --cor1: #F9A870 ;
+    --cor2: #213A8F;
+    --cor3: #e47fba;
+    --cor4: black;
+    --cor5: white;
+
+    --font1: 'Mulish', sans-serif;
+    --font2: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: 
+       
+
+}
+
+h1 {
+    font-family: var(--font1);
+    text-align: center; 
+}
