@@ -29,3 +29,9 @@ h1 {
     font-family: var(--font1);
     text-align: center; 
 }
+
+header > h1 > span {
+    background: linear-gradient(to right, var(--cor2) 50%, var(--cor3) 0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
