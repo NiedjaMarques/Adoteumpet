@@ -54,18 +54,24 @@ button {
 }
 
 #divright {
+    position: relative;
+    float: right;
         /* float: left; 
         width: 48%;
         height: 50px;
-        margin-right: 50%;  */      
+        margin-right: 50%;      
         position: relative;
         left: 1000px;
-        margin-bottom: 20px;
+        margin-bottom: 20px;*/
    /* VERIFICAR PRIMEIRO */
 }
 
-.two-colors {
-    background: linear-gradient(to right, var(--cor2) 50%, var(--cor3) 0);
+.one-colors {
+    color: var(--cor2);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    
+}
+
+.two-colors {
+    color: var(--cor3);
 }
