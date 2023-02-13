@@ -56,13 +56,17 @@ button {
 #divright {
     position: relative;
     float: right;
-        /* float: left; 
+    margin-bottom: 20px
+    width: 48%;
+    
+
+                 /* float: left; 
         width: 48%;
         height: 50px;
-        margin-right: 50%;      
-        position: relative;
+                 margin-right: 50%;      
+                 position: relative;
         left: 1000px;
-        margin-bottom: 20px;*/
+              margin-bottom: 20px;*/
    /* VERIFICAR PRIMEIRO */
 }
 
