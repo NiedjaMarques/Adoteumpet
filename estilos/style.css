@@ -14,16 +14,20 @@
 }
 
 * {
+    background-color:
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-color: #cfd281; /* TESTE - APAGAR */
     text-align: justify;     
-    padding: 30px 50px 50px 30px; 
+    padding: 20px 30px 30px 20px;
+}
 
+header {
+    background-color: rgb(15, 78, 134);
+    padding: 20px;
 }
 
 nav a {
